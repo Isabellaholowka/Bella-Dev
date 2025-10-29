@@ -1,4 +1,32 @@
 body{
-color: blue;
+color: black;
 font-size: 40px;
+}
+
+/*
+significa tudo com relação a pagina
+configuração inical do projeto
+font-family escolhe a fonte (escolha pessoal)
+padding é o espaço interno entre o conteúdo de um elemento e sua borda
+box-sizing: border-box; é uma propriedade CSS
+que define como o tamanho de um elemento é calculado.
+*/
+*{
+margin: 0;;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* configurando a cor do fundo da página*/
+body {
+background-color: #47c462; /* cor do fundo*/
+}
+.navegacao{
+    width: 100%; /*largura do menu em relação a largura da página*/
+    top: 0; /*menu sempre ficar no topo*/
+    position: fixed; /* deixa o menu fixo*/
+    background: rgba(221, 133, 220, 0.8); /* COR DO FUNDO COM TRANSPARÊNCIA*/
+    padding: 1.5rem; /* espaço interno do menu*/
+    z-index: 100; /* MENU FICA NA FRENTE DO CONTEÚDO DA PÁGINA*/
 }
