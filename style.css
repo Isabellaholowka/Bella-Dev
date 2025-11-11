@@ -78,3 +78,34 @@ background-color: rgb(255, 255, 255),255; /* cor do fundo*/
 .div-foto{
     text-align: center;
 }
+.div-foto h1{
+    font-size: 35px;
+    color: rgb(222, 51, 60);
+    margin: 5px;
+}
+
+.div-foto p{
+    font-size: 1.5rem;
+    color: rgba(238, 34, 133, 0.533);
+}
+.sobre{
+    padding: 6rem 2rem;
+}
+.sobre-titulo{
+    font-size: 2.0rem;
+    color: #e2e8f0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sobre-caixa{
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+}
+.sobre-paragrafo{
+    text-align: center;
+    font-size: 16px;
+}
