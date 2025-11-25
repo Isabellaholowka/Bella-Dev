@@ -80,13 +80,13 @@ background-color: rgb(255, 255, 255),255; /* cor do fundo*/
 }
 .div-foto h1{
     font-size: 35px;
-    color: rgb(222, 51, 60);
+    color: rgb(255, 255, 255);
     margin: 5px;
 }
 
 .div-foto p{
     font-size: 1.5rem;
-    color: rgba(238, 34, 133, 0.533);
+    color: rgba(255, 255, 255, 0.533);
 }
 .sobre{
     padding: 6rem 2rem;
@@ -120,4 +120,39 @@ background-color: rgb(255, 255, 255),255; /* cor do fundo*/
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+}
+.card{
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    transition: all 0.5 ease;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.4);
+    transform: translateY(-10px) scale(1.03);
+}
+.projetos-titulo{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.projetos-titulo{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.caixa-texto-projeto{
+    padding: 1rem;
+}
+.info-projetos{
+    margin-bottom: 0.2rem;
+}
+.paragrafo-projetos{
+    color: rgba(226, 232, 240, 0.8);
+}
+.caixaa{
+    width: 300px;
+    height: 200px;
 }
