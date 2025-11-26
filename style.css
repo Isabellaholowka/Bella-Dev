@@ -202,3 +202,19 @@ background-color: rgb(255, 255, 255),255; /* cor do fundo*/
     transform: scale(1.01);
     box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
 }
+<script>
+    function enviarWhats() {
+        event.preventDefault() 
+        let nome document.getElementById("nome").value;
+        let mensagem document.getElementById("mensagem").value;
+        const telefone = "5544xxXXXXXXX";
+
+let texto = "Olá! Me chamo + nome + ", + mensagem;
+/*formata a mensagem para url*/
+let msgFormatada encodeURIComponent(texto)
+let url="https://wa.me/" + telefone + "?text=" + msgFormatada;
+window.open(url, '_blank'); /*abre url do whatsApp*/
+/*testando envio no console da pagina (f12)*/
+console.log(url);
+}
+</script>

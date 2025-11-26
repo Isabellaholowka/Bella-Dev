@@ -38,12 +38,12 @@
                 Sou uma aluna do Ensino Médio, trabalho em um laboratório de biotecnologia e penso em fazer faculdade de biomedicina.
             </p>
         </div>
-    </section>
+    </section>/*pega que a pessoa digitou no nome*/
     <section id="projetos" class="projetos">
         <h2 class="pojetos-titulo">Meus Projetos</h2>
         <div class="projetos-caixa">
             <div class="card">
-                <img src="img/perfil.jpeg" class="projetos-imagem">
+                <img src="img/perfil.jpeg" class="projetos-imagem/*pega que a pessoa digitou no nome*/">
                 <div class="caixa-texto-projeto">
                     <h3 class="info-projetos">nome site ou projeto</h3>
                     <p class="paragrafo-projetos">decrição</p>
@@ -67,7 +67,7 @@
     </section>
     <section id="contato" class="contato">
         <h1 class="contato-titulo">Entre em Contato em</h1>
-        <form class="formulario-contato" id="formulario"> <!-- Tag do campo do formulário-->
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)"> <!-- Tag do campo do formulário-->
             <div class="forms">
                 <input placeholder="Nome" class="campo-form" id="nome">
             </div>
